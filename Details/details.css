@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+  }
+  
+  ::-moz-selection {
+    color: white;
+    background-color: #e61c5d;
+  }
+  
+  ::selection {
+    color: white;
+    background-color: #e61c5d;
+  }
+  
+  .container {
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 32px;
+  }
+  
+.s3{
+    background-image: url(https://preview.colorlib.com/theme/villa/img/round.png.webp);
+}
+
+.s3 .s3-in {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+    flex-direction: column;
+    z-index: 999;
+    position: relative;
+  }
+ 
+
+  .s3 .s31-in {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+  }
+  .s3 .s31-in .text {
+    width: 56%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .s3  .s31-in .text h1 {
+    font-size: 68px;
+    font-weight: 500;
+  }
+  .s3  .s31-in .text p {
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 20px;
+    color: #7c7c7c;
+  }
+  .s3  .s31-in .boxes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding: 30px 0;
+  }
+  .s3  .s31-in .boxes .box1 {
+    width: 28%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 13px 9px 32px -24px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 13px 9px 32px -24px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 13px 9px 32px -24px rgba(0, 0, 0, 0.75);
+  }
+  .s3 .s31-in .boxes .box1:hover {
+    box-shadow: 13px 9px 53px -16px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 13px 9px 53px -16px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 13px 9px 53px -16px rgba(0, 0, 0, 0.75);
+    transition: 0.4s;
+  }
+  .s3  .s31-in .boxes .box1 .img {
+    width: 100%;
+  }
+  .s3  .s31-in .boxes .box1 .img img {
+    width: 100%;
+  }
+  .s3  .s31-in .boxes .box1 .text {
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 18px;
+    padding: 20px 0;
+    justify-content: end;
+    width: 80%;
+  }
+  .s3  .s31-in .boxes .box1 .text h3 {
+    font-size: 17px;
+    color: #b3b3b3;
+    font-family: "Mukta Mahee", sans-serif;
+  }
+  .s3  .s31-in .boxes .box1 .text h1 {
+    font-size: 26px;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 500;
+  }
+  .s3  .s31-in .boxes .box1 .text h1:hover {
+    color: #e61c5d;
+    transition: 0.3s;
+    cursor: pointer;
+  }
